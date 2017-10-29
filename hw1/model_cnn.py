@@ -168,7 +168,7 @@ train_y = []
 
 ##1.讀fbank
 data = OrderedDict()#用dict存維度資料
-f = open('/data/fbank/train.ark',"r+")
+f = open('./data/fbank/train.ark',"r+")
 for line in f:#1124823個訊框
     numlist = line.split()#用空白分
     allid = numlist[0]#id部分
@@ -184,7 +184,7 @@ f.close()
 #print (data.keys())
 
 ##2.讀label#已check
-f = open('/sorted_train_label.lab',"r")
+f = open('./sorted_train_label.lab',"r")
 for line in f:
 	(allid, lab) = line.split(',')
 	lab = lab.strip('\n')
