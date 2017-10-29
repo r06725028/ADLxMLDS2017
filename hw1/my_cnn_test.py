@@ -135,7 +135,7 @@ print ("padding ok")
 
 
 #########################5.下載model###################
-model = load_model('./your_cnn_model.hdf5')##########上傳github
+model = load_model('./your_cnn_model.h5')##########上傳github
 
 print ("load model ok")
 ############################6.做預測#####################
