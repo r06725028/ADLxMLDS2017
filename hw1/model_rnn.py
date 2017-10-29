@@ -184,7 +184,7 @@ f.close()
 #print (data.keys())
 
 ##2.讀label#已check
-f = open(path+'/sorted_train_label.lab',"r")
+f = open(path+'./sorted_train_label.lab',"r")
 for line in f:
 	(allid, lab) = line.split(',')
 	lab = lab.strip('\n')
