@@ -103,7 +103,7 @@ inttobinary['47'] = [0]*47+[1]
 ###############2.自建dict做字母到數字的轉換##############
 """
 chartoint = {}#用chartoint查表做數字轉換
-f = open("48phone_char.map","r")
+f = open("./data/48phone_char.map","r")
 for line in f:#48個對應
     #numlist = re.split('[\s]',line)#用空白分#print("numlist ",numlist)#['aa',' ','0']
     #print(numlist[0]+"|"+numlist[1])
@@ -168,7 +168,7 @@ train_y = []
 
 ##1.讀fbank
 data = OrderedDict()#用dict存維度資料
-f = open('data/fbank/train.ark',"r+")
+f = open('./data/fbank/train.ark',"r+")
 for line in f:#1124823個訊框
     numlist = line.split()#用空白分
     allid = numlist[0]#id部分
