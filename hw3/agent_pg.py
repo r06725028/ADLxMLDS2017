@@ -32,7 +32,7 @@ class Agent_PG(Agent):
 
     if args.test_pg:
       #you can load your model here
-      self.tf_model = pickle.load(open('mymodel.p', 'rb'))
+      self.tf_model = pickle.load(open('my_pg_model.p', 'rb'))
       print('loading trained model')
 
   def init_game_setting(self):  
