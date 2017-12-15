@@ -159,7 +159,7 @@ class Agent_PG(Agent):
             reward_sum = 0
             if episode_number % 50 == 0:
                 saver.save(sess, save_path, global_step=episode_number)
-                pickle.dump(tf_model, open('./mymodel.p','wb'))
+                ＃pickle.dump(tf_model, open('./my＿dqn_model.p','wb'))
                 print ("SAVED MODEL #{}".format(episode_number))
     pass
 
