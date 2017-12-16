@@ -12,3 +12,4 @@ python3 test.py --test_pg --test_dqn
 
 #https://drive.google.com/file/d/12c1_2X0WcMXx18Vw0Aefx7Fv1riP5YEv/view?usp=sharing#公開在網路上
 
+
