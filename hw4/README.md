@@ -1,1 +1,1 @@
-run.sh中會下載五個檔案：一個model檔以及四個放在skipthoughts中的檔案，完整下整時間可能
+run.sh中會下載五個檔案：一個model檔以及四個放在skipthoughts中的檔案，完整下整時間可能就約需十分鐘，但是實際生成圖片約在三分鐘內
